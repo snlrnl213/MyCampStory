@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+}
+.tab{
+    width: 25%;
+    height: 100vh;
+    background: #e45b5b;
+}
+.board{
+    width: 75%;
+    height: 100vh;
+    background: #b9b9b9;
+}

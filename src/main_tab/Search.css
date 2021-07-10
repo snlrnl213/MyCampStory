@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    padding: 1vw;
+}
+
+.search input {
+    width: 70%;
+    font-size: 2vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c5f6fa;
+}
+
+.create-button {
+  width: 30%;
+  background:  #cf4522;
+  border-radius: 3px;
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+  text-align: center;
+}
+
+.create-button:hover {
+  background:  #f55027;
+}

@@ -1,0 +1,64 @@
+
+.tab-item {
+    padding: 2vw;
+    display: flex;
+    height: 6vw;
+    align-items: center; /* 세로 가운데 정렬 */
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    background: #e45b5b;
+    color: #292626;
+}
+
+.tab-item:hover {
+  background: #bb4b4b;
+  color: #ffffff;
+}
+
+.tab-selected{
+    padding: 2vw;
+    display: flex;
+    height: 6vw;
+    align-items: center; /* 세로 가운데 정렬 */
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    background: #bb4b4b;
+}
+
+  .tab-front{
+    width: 10%;
+    height: 100%;
+    background: #e45b5b;
+  }
+  .front-selected{
+    width: 10%;
+    height: 100%;
+    background: #4b4a4a;
+  }
+
+  
+  .tab-text {
+    /*flex: 1; /* 체크, 엑스를 제외한 공간 다 채우기 */
+    width: 90%;
+    word-break: break-all;
+    font-size: 3vw;
+  }
+  
+  .selected {
+    /* text-decoration: line-through; */
+    color: #ffffff;
+  }
+  
+  
+
+  
+  /* todo-item 사이에 윗 테두리 */
+  .tab-item + .tab-item {
+    border-top: 1px solid #ffffff;
+  }
+  
+
+
+  
